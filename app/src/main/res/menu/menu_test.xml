@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/lightNumber"
+        android:title="조명설정"
+        app:showAsAction="always|withText"/>
+
+    <item android:id="@+id/SM"
+        android:icon="@drawable/bluetooth_icon"
+        android:title="블루투스설정창"
+        app:showAsAction="always"/>
+
+</menu>
